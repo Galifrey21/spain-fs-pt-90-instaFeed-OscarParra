@@ -1,0 +1,68 @@
+h1{
+    width: 30%;
+    
+}
+.header{
+   display: flex;
+   justify-content: center;
+   
+   
+    
+}
+
+.titlePhoto{
+    display: flex;
+    margin-left: 5px;
+}
+.photoPerfil img{
+    width: 50px;
+    height: 50px;
+    border: solid;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.title{
+    align-self: center;
+    margin-left: 10px;
+}
+
+.date{
+    align-self: center;
+    margin-right: 5px;
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.post{
+    background-color: aqua;
+    padding-top: 10px;
+    width: 30%;
+    border: double 5px;
+    margin-bottom: 10px;
+    
+}
+.postHeader{
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.photo{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+.text{
+    font-size: 18px;
+    
+}
